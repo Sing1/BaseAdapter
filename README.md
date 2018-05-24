@@ -28,8 +28,7 @@ recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 在`adapter`中继承`sing.BaseAdapter`：
 
-```JAAV
-
+```JAVA
 public class MyAdapter extends BaseAdapter<String> {
 
     public MyAdapter(Context context, List<String> list) {
